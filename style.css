@@ -1,0 +1,689 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    width: 100%;
+    float: left;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1280px !important;
+    margin: auto;
+    padding: 0px 15px;
+
+}
+
+.mainheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hdleft {
+    width: auto;
+    float: left;
+
+}
+
+.hdleft p {
+    width: auto;
+    float: left;
+    font-weight: 300;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.hdleft p i {
+    font-size: 22px;
+
+}
+
+.hdleft:hover p {
+    color: #208094;
+
+}
+
+
+.searchbar {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.searchbar input {
+    border: none;
+    color: #7a7a7a;
+    font-size: medium;
+
+}
+
+.searchbar i {
+    color: #7a7a7a;
+    font-size: 18px;
+
+}
+
+.hdliall {
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    align-items: start;
+
+}
+
+.headerli {
+    width: 100%;
+    float: left;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-top: 50px;
+
+}
+
+.hdlogo {
+    max-width: 250px;
+    max-height: 150px;
+
+}
+
+.hdlogo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.mainheaderli {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 0px 20px;
+
+}
+
+.mainheaderli ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0 !important;
+
+}
+
+.mainheaderli ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12.9px;
+    font-weight: 500;
+    padding-bottom: 15px;
+
+}
+
+.mainheaderli ul li i {
+    font-size: 18px;
+    padding-left: 10px;
+    vertical-align: middle;
+
+}
+
+.mainheaderli ul li a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.mainheaderli ul li:hover .maindropdown {
+    transform: scale(1);
+}
+
+.maindropdown {
+    width: 100%;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    display: flex;
+    transform: scale(0);
+
+}
+
+.dropdownhd {
+    width: 100%;
+    float: left;
+    padding: 10px 0px 20px 20px;
+    border-right: 1px solid #dddddd;
+
+}
+
+.dropdownhd ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.dropdownhd ul li {
+    display: block;
+    font-weight: 400;
+    padding: 0;
+
+}
+
+.drophd {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+
+.liicon a {
+    color: #000;
+
+}
+
+.liicon {
+    font-size: 25px !important;
+
+}
+
+.mainbanner {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.brimg {
+    width: 100%;
+    float: left;
+    height: 400px;
+    object-fit: contain;
+
+}
+
+.brimg img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bannertext {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.bannertext h4 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.bannertext p {
+    font-size: 30px;
+    color: rgb(255 255 255 / 70%);
+
+}
+
+.bannertext button {
+    padding: 8px 60px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgb(255 255 255 / 70%);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.shop {
+    width: 100%;
+    float: left;
+}
+
+.mainshop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px 0px;
+    position: relative;
+
+}
+
+.shopimg {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.vivalagoon.com/modules/jscomposer/uploads/main_image/38810.jpg?id=);
+    /* object-fit: contain; */
+    flex-wrap: wrap;
+    height: 400px;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.shopimg.two {
+    background-image: url(https://www.vivalagoon.com/modules/jscomposer/uploads/Hero_image/ambient-cocoon-deck-lounge-1-.jpg?id=) !important;
+
+}
+
+
+.shopimg.three {
+    background-image: url(https://www.vivalagoon.com/modules/jscomposer/uploads/main_image/50616-1-.jpg?id=) !important;
+
+}
+
+
+.shopbg {
+    width: 100%;
+    float: left;
+    background-color: #00000033;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+}
+
+.shopborder {
+    display: none;
+    transition: 0.9s;
+   
+}
+
+
+.shopimg:hover .shopborder {
+    width: 100%;
+    float: left;
+    background-color: #00000033;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    outline: 2px solid #fff;
+    outline-offset: -40px;
+    z-index: 2;
+    display: block;
+
+}
+
+.shopimg h1 {
+    font-size: 16px;
+    color: #fff;
+    z-index: 1;
+    text-transform: uppercase;
+
+}
+
+.shopimg button {
+    border: 1.5px solid #fff;
+    z-index: 1;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    gap: 12px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.shopli {
+    width: 100%;
+    float: left;
+
+}
+
+.shopli ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px !important;
+
+}
+
+.shopli ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.shopli ul li a {
+    color: #000;
+
+}
+
+.shopli ul li a i {
+    padding-right: 12px;
+
+}
+
+.shopltbox {
+    width: 100%;
+    float: left;
+   
+
+}
+
+.shopltboximg {
+    width: 25%;
+    float: left;
+    background-image: url(https://www.vivalagoon.com/themes/lagoon/assets/css/spotlights.png);
+    height: 284px;
+    background-size: cover;
+    z-index: 3;
+    position: relative;
+}
+
+.shopltboximg img{
+    width: 100%;
+   
+}
+
+.shopltboximg:first-child:hover {
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(.9);
+    transition: 0.4s;
+}
+
+.shopltboximg:last-child:hover {
+    transform:translatey(-30px);
+    transition: 0.4s;
+}
+
+.shopltboximg:nth-child(3):hover {
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(.9);
+    transition: 0.4s;
+}
+
+
+.shopltboximg:nth-child(2):hover {
+    transform:translatey(30px);
+    transition: 0.4s;
+
+}
+
+.shopltboxtext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(159 158 158 / 96%);
+    height: 100%;
+    z-index: 5;
+    padding: 44px;
+
+}
+
+
+.shopltboxtext  h6{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.shopltboxtext  p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.imagination {
+    width: 100%;
+    float: left;
+    font-family: "Pompiere", sans-serif;
+
+}
+
+.mainimagination {
+    width: 100%;
+    float: left;
+}
+
+.imaginahd {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+
+}
+
+.imaginahd h1 {
+    font-size: 38px;
+    display: inline;
+
+}
+
+.imaginaimg {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.imagina {
+    width: 50%;
+    float: left;
+    background-image: url(https://www.vivalagoon.com/modules/jscomposer/uploads/main_image/panarea-caementum-gallery-01-1-.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.imaginaa {
+    width: 50%;
+    float: left;
+    background-image: url(https://www.vivalagoon.com/modules/jscomposer/uploads/main_image/59108.jpg?id=);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.imagina p {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+
+}
+
+.imagina button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 2px 12px;
+    z-index: 1;
+
+}
+
+.imaginaa p {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+
+}
+
+.imaginaa button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 2px 12px;
+        z-index: 1;
+
+}
+
+.bgcolor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000003d;
+    height: 100%;
+    width: 100%;
+
+}
+
+.arrivals {
+    width: 100%;
+    float: left;
+
+}
+
+.mainarrivals {
+    width: 100%;
+    float: left;
+    font-family: "Fondamento", cursive;
+    margin: 30px 0px;
+
+}
+
+.arrivalshd {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.arrivalshd h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.arrivalshd:after {
+    content: "";
+    background-image: url(https://www.vivalagoon.com/themes/lagoon/assets/css/stroke_dark.png);
+    position: absolute;
+    top: 50px;
+    color: red;
+    width: 200px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 519px;
+}
+
+.arrivalsimgall {
+    width: 100%;
+    float: left;
+
+}
+
+.arronebox {
+    width: 25%;
+    float: left;
+    
+}
+
+.mainarronebox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid #8080803b;
+    padding: 35px;
+    gap: 25px;
+    
+}
+
+.arronimg{
+    width: 200px;
+    float: left;
+}
+
+.arronimg img{
+    width: 100%;
+    
+    
+}
+
+.arrontext {
+    width: 100%;
+    float: left;
+
+}
+
+
+@media  screen and (max-width: 768px) {
+   
+    .hdleft p {
+      display: none;
+    }
+
+    .mainheader {
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .mainheaderli ul li{
+        display: none;
+    }
+
+    .mainheaderli ul li:nth-child(1n +10) {
+        display: block !important;
+    }
+
+    .mainshop {
+        flex-direction: column;
+    }
+
+    .shopimg {
+        width: 100%;
+
+    }
+  
+
+}
